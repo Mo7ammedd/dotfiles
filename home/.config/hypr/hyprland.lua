@@ -1,0 +1,16 @@
+-- end-4 / illogical-impulse, with the user's existing shortcuts and hardware settings.
+require("hyprland.lib")
+require("hyprland.services")
+require("hyprland.variables")
+require("custom.variables")
+require("hyprland.env")
+require("custom.env")
+require("hyprland.general")
+require("hyprland.rules")
+require("hyprland.colors")
+-- The preserved bindings replace the upstream defaults to avoid collisions.
+require("custom.general")
+require("custom.rules")
+require("custom.keybinds")
+require("custom.execs")
+require("hyprland.shellOverrides.main")

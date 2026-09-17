@@ -1,0 +1,84 @@
+{
+    "appearance": {
+        "anim": {
+            "durations": {
+                "scale": 0.8
+            }
+        }
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": false
+        },
+        "clock": {
+            "background": true
+        },
+        "tray": {
+            "background": true,
+            "compact": true,
+            "recolour": true
+        },
+        "workspaces": {
+            "activeIndicator": true,
+            "activeTrail": false,
+            "maxWindowIcons": 2,
+            "occupiedBg": false,
+            "showWindows": true,
+            "showWindowsOnSpecialWorkspaces": true
+        }
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "nautilus",
+                "--new-window"
+            ],
+            "terminal": [
+                "kitty"
+            ]
+        },
+        "idle": {
+            "inhibitWhenAudio": true,
+            "inhibitWhenCharging": false,
+            "lockBeforeSleep": true,
+            "timeouts": [
+                {
+                    "idleAction": "lock",
+                    "inhibitWhenAudio": false,
+                    "inhibitWhenCharging": false,
+                    "respectInhibitors": true,
+                    "timeout": 300
+                },
+                {
+                    "idleAction": "dpms off",
+                    "returnAction": "dpms on",
+                    "timeout": 600
+                },
+                {
+                    "idleAction": [
+                        "suspend"
+                    ],
+                    "timeout": 900
+                }
+            ]
+        }
+    },
+    "launcher": {
+        "favouriteApps": [
+            "^kitty$",
+            "^zen$",
+            "^code$",
+            "^thunar$",
+            "org.gnome.Nautilus"
+        ],
+        "maxShown": 6
+    },
+    "paths": {
+        "wallpaperDir": "~/.config/wallpapers"
+    },
+    "services": {
+        "useFahrenheit": false,
+        "useTwelveHourClock": false
+    }
+}

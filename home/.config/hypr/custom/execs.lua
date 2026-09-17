@@ -1,0 +1,11 @@
+-- Session services for end-4; preserve the existing automount behavior.
+hl.on("hyprland.start", function()
+    hl.exec_cmd("qs -c ii --no-duplicate")
+    hl.exec_cmd("$HOME/.config/hypr/custom/scripts/__restore_video_wallpaper.sh")
+    hl.exec_cmd("hypridle")
+    hl.exec_cmd("gnome-keyring-daemon --start --components=secrets")
+    hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP ILLOGICAL_IMPULSE_VIRTUAL_ENV")
+    hl.exec_cmd("wl-paste --type text --watch bash -c 'cliphist store && qs -c ii ipc call cliphistService update'")
+    hl.exec_cmd("wl-paste --type image --watch bash -c 'cliphist store && qs -c ii ipc call cliphistService update'")
+    hl.exec_cmd("udiskie --automount --notify --no-tray")
+end)

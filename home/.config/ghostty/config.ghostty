@@ -1,0 +1,21 @@
+theme = Catppuccin Mocha
+
+font-family = JetBrainsMono Nerd Font
+font-size = 11
+
+cursor-style = block
+cursor-style-blink = false
+window-padding-x = 12
+window-padding-y = 12
+
+copy-on-select = true
+shell-integration = detect
+
+scrollback-limit = 100000
+
+clipboard-read = allow
+clipboard-write = allow
+
+confirm-close-surface = true
+command = /usr/bin/zsh
+background-opacity = 0.92

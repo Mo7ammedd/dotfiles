@@ -1,0 +1,8 @@
+{
+    "wallpaper": {
+        "postHook": "/home/mohammed/.config/caelestia/scripts/wallpaper-posthook.sh"
+    },
+    "theme": {
+        "postHook": "sudo -n /usr/share/sddm/themes/caelestia/scripts/sync.sh --posthook"
+    }
+}

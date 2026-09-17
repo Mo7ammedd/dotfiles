@@ -1,0 +1,18 @@
+[Default Applications]
+x-scheme-handler/slack=slack.desktop
+video/mp4=mpv.desktop
+video/matroska=mpv.desktop
+x-scheme-handler/antigravity=antigravity.desktop
+text/html=zen.desktop
+x-scheme-handler/http=zen.desktop
+x-scheme-handler/https=zen.desktop
+x-scheme-handler/about=zen.desktop
+x-scheme-handler/unknown=zen.desktop
+x-scheme-handler/itms=sidra.desktop
+image/jpeg=org.gnome.Loupe.desktop
+x-scheme-handler/apidog=apidog.desktop
+
+[Added Associations]
+video/mp4=mpv.desktop;
+video/matroska=mpv.desktop;
+image/jpeg=org.gnome.Loupe.desktop;

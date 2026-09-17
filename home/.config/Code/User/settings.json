@@ -1,0 +1,15 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dark Modern",
+    "git.enableSmartCommit": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.initialHint": false,
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /home/outako/backend-api && node -e \"import\\('\\./src/utils/apiResponse\\.js'\\)\\.then\\(m=>\\{console\\.log\\(m\\.fileUrl\\('images/products/demo\\.jpg'\\)\\); const req=\\{protocol:'http',headers:\\{'x-forwarded-proto':'https','x-forwarded-host':'outako\\.modev\\.me'\\},get:\\(k\\)=>k==='host'\\?'localhost:5600':''\\}; console\\.log\\(m\\.fileUrl\\('images/products/demo\\.jpg',req\\)\\);\\}\\)\\.catch\\(e=>\\{console\\.error\\(e\\);process\\.exit\\(1\\);\\}\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "claudeCode.preferredLocation": "panel"
+}

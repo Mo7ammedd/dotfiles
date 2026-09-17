@@ -1,0 +1,38 @@
+/*
+* GTK colors generated with Matugen
+* The source template is here: ~/.config/matugen/templates/gtk-3.0/gtk.css
+*/
+
+/* Accents */
+@define-color accent_color #ffb2b7;
+@define-color accent_fg_color #561d24;
+@define-color accent_bg_color #ffb2b7;
+@define-color destructive_bg_color #93000a;
+@define-color destructive_fg_color #ffdad6;
+@define-color destructive_color #ffb4ab;
+@define-color success_bg_color #374B3E;
+@define-color success_fg_color #D1E9D6;
+@define-color success_color #B5CCBA;
+/* Base surfaces */
+@define-color window_bg_color #1a1112;
+@define-color window_fg_color #f0dede;
+@define-color headerbar_bg_color #271d1e;
+@define-color headerbar_backdrop_color #271d1e;
+@define-color headerbar_fg_color #f0dede;
+@define-color card_bg_color #271d1e;
+@define-color card_fg_color #f0dede;
+@define-color sidebar_bg_color #271d1e;
+@define-color sidebar_fg_color #f0dede;
+@define-color secondary_sidebar_bg_color #22191a;
+@define-color secondary_sidebar_fg_color #f0dede;
+@define-color sidebar_border_color @sidebar_bg_color;
+@define-color sidebar_backdrop_color @sidebar_bg_color;
+@define-color view_bg_color #140c0c;
+@define-color view_fg_color #f0dede;
+@define-color overview_bg_color #140c0c;
+@define-color overview_fg_color #f0dede;
+/* Popups */
+@define-color popover_bg_color #3d3232;
+@define-color popover_fg_color #f0dede;
+@define-color dialog_bg_color #322828;
+@define-color dialog_fg_color #f0dede;

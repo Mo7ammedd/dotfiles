@@ -1,0 +1,5 @@
+{
+    "window.autoDetectColorScheme": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true
+}
